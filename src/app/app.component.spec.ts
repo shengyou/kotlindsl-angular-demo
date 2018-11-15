@@ -23,13 +23,13 @@ describe('AppComponent', () => {
   it(`should have as title 'kotlindsl-angular-demo'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('kotlindsl-angular-demo');
+    expect(app.title).toEqual('Kotlin DSL Demo');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to kotlindsl-angular-demo!');
+    expect(compiled.querySelector('h1').textContent).toContain('Kotlin DSL Demo!');
   });
 });

@@ -9,6 +9,6 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to kotlindsl-angular-demo!');
+    expect(page.getTitleText()).toEqual('Kotlin DSL Demo!');
   });
 });
